@@ -49,9 +49,9 @@ def le_banco(nome_do_arquivo,dic_local):
 def busca_jogador(dic_local,jogador):
     if(jogador in dic_local):
         print("O jogador possui conta registrada!")
-        resp=input("Deseja ver os dados do jogador em questao? (Y/N)")
+        resp=input("Deseja ver os dados do jogador em questao e dos demais? (Y/N)")
         if resp=="Y":
-            print("")#imprime_dados...
+            imprime_dados(dic_local)#imprime_dados...
         elif resp=="N":
             print("Redirecionando para menu\n")
         else:
@@ -60,7 +60,7 @@ def busca_jogador(dic_local,jogador):
         print("Jogador nao encontrado!")
         resp2=input("Deseja cadastra-lo? (Y/N)")    
         if(resp2=="Y"):
-            print("")#cadastra_jogador...
+            adiciona_itens("lista_de_players.txt",dic_local)#cadastra_jogador...
         elif resp2=="N":
             print("Redirecionando para menu\n")
         else:
