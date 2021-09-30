@@ -1,0 +1,28 @@
+Login: ednaelxd
+Senha: 123456
+
+Classe do personagem: Mago
+
+Atributos:
+
+Forca: 5
+Agilidade: 1
+Vitalidade: 10
+Inteligencia: 80
+Destreza: 30
+Sorte: 1
+**********************************
+Login: manolo222
+Senha: 123456
+
+Classe do personagem: Guerreiro
+
+Atributos:
+
+Forca: 50
+Agilidade: 30
+Vitalidade: 45
+Inteligencia: 1
+Destreza: 10
+Sorte: 2
+**********************************
